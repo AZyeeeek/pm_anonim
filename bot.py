@@ -6,12 +6,12 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters
 
 # ==================== CONFIGURATION ====================
-BOT_TOKEN = os.getenv("BOT_TOKEN")  # set in Render Environment
+BOT_TOKEN = "8360074639:AAF9slW_t0MJBrYEWDbCIHQiDYcT2tVP6m4"  # set in Render Environment
 WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET", "change-me")  # set in Render Environment
 
 STAFF_IDS = {
     "director": 1286115862,
-    "psychologist": 987654321,
+    "psychologist": 1286115862,
     "academic_subdirector": 555555555,
     "ethics_subdirector": 444444444
 }
@@ -166,3 +166,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
